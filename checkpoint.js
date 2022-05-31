@@ -28,13 +28,13 @@ function microondas(comida,tempo){
     if(comida === 'pipoca' && tempo < pipocaTime) {
         return console.log("tempo insuficiente")
     }
-    if(comida === 'pipoca' && tempo == pipocaTime * 3) {
+    if(comida === 'pipoca' && tempo > pipocaTime * 3) {
         return console.log("Kabumm")
     }  
-    if(comida === 'pipoca' && tempo == pipocaTime * 2) {
+    if(comida === 'pipoca' && tempo > pipocaTime * 2) {
         return console.log("A comida queimou")
     }
-    else if(comida === 'pipoca' && tempo >= pipocaTime) {
+    else if(comida === 'pipoca' && tempo > pipocaTime) {
         return console.log("Prato pronto, bom apetite!!!")
     }
     
@@ -44,13 +44,13 @@ function microondas(comida,tempo){
     if(comida === 'macarrão' && tempo < macarraoTime) {
         return console.log("tempo insuficiente")
     }
-    if(comida === 'macarrão' && tempo == macarraoTime * 3) {
+    if(comida === 'macarrão' && tempo > macarraoTime * 3) {
         return console.log("Kabumm")
     }
-    if(comida === 'macarrão' && tempo == macarraoTime * 2) {
+    if(comida === 'macarrão' && tempo > macarraoTime * 2) {
         return console.log("A comida queimou")
     }
-    else if(comida === 'macarrão' && tempo == macarraoTime) {
+    else if(comida === 'macarrão' && tempo > macarraoTime) {
         return console.log("Prato pronto, bom apetite!!!")
     }
     
@@ -59,13 +59,13 @@ function microondas(comida,tempo){
     if(comida === 'brigadeiro' && tempo < brigadeiroTime) {
         return console.log("tempo insuficiente")
     }
-    if(comida === 'brigadeiro' && tempo == brigadeiroTime * 3) {
+    if(comida === 'brigadeiro' && tempo > brigadeiroTime * 3) {
         return console.log("Kabumm")
     }
-    if(comida === 'brigadeiro' && tempo == brigadeiroTime * 2) {
+    if(comida === 'brigadeiro' && tempo > brigadeiroTime * 2) {
         return console.log("A comida queimou")
     }
-    else if(comida === 'brigadeiro' && tempo == brigadeiroTime) {
+    else if(comida === 'brigadeiro' && tempo > brigadeiroTime) {
         return console.log("Prato pronto, bom apetite!!!")
     }
     
@@ -75,13 +75,13 @@ function microondas(comida,tempo){
     if(comida === 'feijão' && tempo < feijaoTime) {
         return console.log("tempo insuficiente")
     }
-    if(comida === 'feijão' && tempo == feijaoTime * 3) {
+    if(comida === 'feijão' && tempo > feijaoTime * 3) {
         return console.log("Kabumm")
     } 
-    if(comida === 'feijão' && tempo == feijaoTime * 2) {
+    if(comida === 'feijão' && tempo > feijaoTime * 2) {
         return console.log("A comida queimou")
     }
-    else if(comida === 'feijão' && tempo == feijaoTime) {
+    else if(comida === 'feijão' && tempo > feijaoTime) {
         return console.log("Prato pronto, bom apetite!!!")
     }
     
@@ -91,22 +91,17 @@ function microondas(comida,tempo){
     if(comida === 'carne' && tempo < carneTime) {
         return console.log("tempo insuficiente")
     }
-    if(comida === 'carne' && tempo == carneTime * 3) {
+    if(comida === 'carne' && tempo > carneTime * 3) {
         return console.log("Kabumm")
     } 
-    if(comida === 'carne' && tempo == carneTime * 2) {
+    if(comida === 'carne' && tempo > carneTime * 2) {
         return console.log("A comida queimou")
     }
-    else if(comida === 'carne' && tempo == carneTime) {
+    else if(comida === 'carne' && tempo > carneTime) {
         return console.log("Prato pronto, bom apetite!!!")
     }
-    
-    
-
- 
-
 }
 
-microondas( 'figado', 45)
+microondas( 'pipoca', 25)
 //microondas(1,20);
 
