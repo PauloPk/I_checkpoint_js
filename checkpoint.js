@@ -28,71 +28,80 @@ function microondas(comida,tempo){
     if(comida === 'pipoca' && tempo < pipocaTime) {
         return console.log("tempo insuficiente")
     }
-    else if(comida === 'pipoca' && tempo == pipocaTime) {
-        return console.log("Prato pronto, bom apetite!!!")
-    }
-    if(comida === 'pipoca' && tempo == pipocaTime * 2) {
-        return console.log("A comida queimou")
-    }
     if(comida === 'pipoca' && tempo == pipocaTime * 3) {
         return console.log("Kabumm")
     }  
+    if(comida === 'pipoca' && tempo == pipocaTime * 2) {
+        return console.log("A comida queimou")
+    }
+    else if(comida === 'pipoca' && tempo >= pipocaTime) {
+        return console.log("Prato pronto, bom apetite!!!")
+    }
+    
+    
 
     //macarrão
     if(comida === 'macarrão' && tempo < macarraoTime) {
         return console.log("tempo insuficiente")
     }
-    else if(comida === 'macarrão' && tempo == macarraoTime) {
-        return console.log("Prato pronto, bom apetite!!!")
+    if(comida === 'macarrão' && tempo == macarraoTime * 3) {
+        return console.log("Kabumm")
     }
     if(comida === 'macarrão' && tempo == macarraoTime * 2) {
         return console.log("A comida queimou")
     }
-    if(comida === 'macarrão' && tempo == macarraoTime * 3) {
-        return console.log("Kabumm")
-    } 
-
+    else if(comida === 'macarrão' && tempo == macarraoTime) {
+        return console.log("Prato pronto, bom apetite!!!")
+    }
+    
+    
     //Brigadeiro
     if(comida === 'brigadeiro' && tempo < brigadeiroTime) {
         return console.log("tempo insuficiente")
     }
-    else if(comida === 'brigadeiro' && tempo == brigadeiroTime) {
-        return console.log("Prato pronto, bom apetite!!!")
+    if(comida === 'brigadeiro' && tempo == brigadeiroTime * 3) {
+        return console.log("Kabumm")
     }
     if(comida === 'brigadeiro' && tempo == brigadeiroTime * 2) {
         return console.log("A comida queimou")
     }
-    if(comida === 'brigadeiro' && tempo == brigadeiroTime * 3) {
-        return console.log("Kabumm")
-    } 
+    else if(comida === 'brigadeiro' && tempo == brigadeiroTime) {
+        return console.log("Prato pronto, bom apetite!!!")
+    }
+    
+     
     
     //Feijão
     if(comida === 'feijão' && tempo < feijaoTime) {
         return console.log("tempo insuficiente")
     }
-    else if(comida === 'feijão' && tempo == feijaoTime) {
-        return console.log("Prato pronto, bom apetite!!!")
-    }
-    if(comida === 'feijão' && tempo == feijaoTime * 2) {
-        return console.log("A comida queimou")
-    }
     if(comida === 'feijão' && tempo == feijaoTime * 3) {
         return console.log("Kabumm")
     } 
+    if(comida === 'feijão' && tempo == feijaoTime * 2) {
+        return console.log("A comida queimou")
+    }
+    else if(comida === 'feijão' && tempo == feijaoTime) {
+        return console.log("Prato pronto, bom apetite!!!")
+    }
+    
+    
 
     //Carne
     if(comida === 'carne' && tempo < carneTime) {
         return console.log("tempo insuficiente")
     }
-    else if(comida === 'carne' && tempo == carneTime) {
-        return console.log("Prato pronto, bom apetite!!!")
-    }
-    if(comida === 'carne' && tempo == carneTime * 2) {
-        return console.log("A comida queimou")
-    }
     if(comida === 'carne' && tempo == carneTime * 3) {
         return console.log("Kabumm")
     } 
+    if(comida === 'carne' && tempo == carneTime * 2) {
+        return console.log("A comida queimou")
+    }
+    else if(comida === 'carne' && tempo == carneTime) {
+        return console.log("Prato pronto, bom apetite!!!")
+    }
+    
+    
 
  
 
